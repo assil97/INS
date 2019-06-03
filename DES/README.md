@@ -36,13 +36,16 @@ The Overall DES Algorithm Architecture
 
 <p align="center">
     <img src="des_structure.jpg">
-    <!--![DES_Image](des_structure.jpg)-->
 </p>
 
 The round-key generator Algorithm Architecture
 
-![Round_Key_Generator](key_generation.jpg)
+<p align="center">
+    <img src="key_generation.jpg">
+</p>
 
 The Round Function Architecture
 
-![Round_Function](round.jpg)
+<p align="center">
+    <img src="round.jpg">
+</p>
