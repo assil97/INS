@@ -6,9 +6,8 @@ DES is an implementation of a Feistel Cipher. It uses 16 round Feistel structure
 
 Since DES is based on the Feistel Cipher, we have the following components:
 
-a)Round function
-
-b)Key schedule
+    1.Round function
+    2.Key schedule
 
 Any additional processing − 
 Initial and final permutation
@@ -32,4 +31,4 @@ Straight Permutation − The 32 bit output of S-boxes is then subjected to the s
 Key Generation
 The round-key generator creates sixteen 48-bit keys out of a 56-bit cipher key. 
 
-The process of key generation is depicted in the following illustration:
+![des_structure.jpg]
