@@ -33,10 +33,16 @@ Key Generation
 The round-key generator creates sixteen 48-bit keys out of a 56-bit cipher key. 
 
 The Overall DES Algorithm Architecture
-![DES_Image](des_structure.jpg)
+
+<p align="center">
+    <img src="des_structure.jpg">
+    <!--![DES_Image](des_structure.jpg)-->
+</p>
 
 The round-key generator Algorithm Architecture
-![Round_Key_Generator][key_generation.jpg]
+
+![Round_Key_Generator](key_generation.jpg)
 
 The Round Function Architecture
-![Round_Function][round.jpg]
+
+![Round_Function](round.jpg)
