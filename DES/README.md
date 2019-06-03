@@ -31,4 +31,4 @@ Straight Permutation − The 32 bit output of S-boxes is then subjected to the s
 Key Generation
 The round-key generator creates sixteen 48-bit keys out of a 56-bit cipher key. 
 
-![des_structure.jpg]
+![DES_Image](des_structure.jpg)
