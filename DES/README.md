@@ -15,6 +15,7 @@ Initial and Permutation
 The initial and final permutations are straight Permutation boxes (P-boxes) that are inverses of each other.
 
 Round Function
+
 The heart of this cipher is the DES function, f. The DES function applies a 48-bit key to the rightmost 32 bits to produce a 32-bit output.
 
 Expansion Permutation Box − Since right input is 32-bit and round key is a 48-bit, we first need to expand right input to 48 bits.
@@ -31,4 +32,11 @@ Straight Permutation − The 32 bit output of S-boxes is then subjected to the s
 Key Generation
 The round-key generator creates sixteen 48-bit keys out of a 56-bit cipher key. 
 
+The Overall DES Algorithm Architecture
 ![DES_Image](des_structure.jpg)
+
+The round-key generator Algorithm Architecture
+![Round_Key_Generator][key_generation.jpg]
+
+The Round Function Architecture
+![Round_Function][round.jpg]
